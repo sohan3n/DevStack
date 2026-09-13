@@ -1,10 +1,11 @@
 import "./App.css";
-import Navbar from "./component/navbar";
-import HeroSection from "./component/heroSection";
-import TechnologiesSection from "./component/Technology/technologiesSection";
+import Navbar from "./component/Navbar";
+import HeroSection from "./component/HeroSection";
+import TechnologiesSection from "./component/Technology/TechnologiesSection";
+import Footer from "./component/Footer";
 import { ToastContainer } from 'react-toastify';
+// cspell:ignore Toastify
 import 'react-toastify/dist/ReactToastify.css';
-import Footer from "./component/footer";
 
 function App() {
 

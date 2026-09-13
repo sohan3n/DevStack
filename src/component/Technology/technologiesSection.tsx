@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { toast } from "react-toastify";
-import TechnologyCard from "./technologyCard";
-import type { Technology } from "./technologyCard";
-import StackSidebar from "./stackSidebar";
+import TechnologyCard from "./TechnologyCard";
+import type { Technology } from "./TechnologyCard";
+import StackSidebar from "./StackSidebar";
 
 export default function TechnologiesSection() {
   const [technologies, setTechnologies] = useState<Technology[]>([]);
